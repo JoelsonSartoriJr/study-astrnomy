@@ -57,6 +57,6 @@ def vh(r: List[float], a: float, vc: float) -> List[float]:
     """
 
     x =r/a
-    v = vc * np.sqrt(1- np.arcsin(x)/x)
+    v = vc * np.sqrt(1- np.arctan(x)/x)
 
     return v
