@@ -16,6 +16,9 @@ def f(x:list)->list:
 
 def f_dois(x:float)->float:
     y = np.sin(10*x)*np.exp(-10*np.fabs(x))
+    return y
     
     
 prod = lambda x, h: f(x)*f(x+h)
+
+prod_dois = lambda x, h: f_dois(x)*f_dois(x+h)
